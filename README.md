@@ -1,0 +1,2 @@
+# Chatbot
+ Introducing our Chatbot Project, created using HTML, CSS, and JavaScript. This interactive chatbot utilizes if-else conditions to provide intelligent responses and engage in dynamic conversations. With a user-friendly interface, it offers automated assistance, answers queries, and performs basic tasks. Easily integrate our Chatbot Project into your website or application and enjoy the benefits of a responsive virtual assistant.
