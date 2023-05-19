@@ -20,7 +20,7 @@
         </div>
         <div class="cross-btn">&times;</div>
         <div class="chats">
-            <p class="bot-line"><span class="bot-logo-div"><img src="LOGO copy.png" alt=""></span></p>
+            <p class="bot-line"><span class="bot-logo-div"><img class="bot_logo_div_logo" src="LOGO copy.png" alt=""></span></p>
         </div>
 
         <form id="user-input">
@@ -202,7 +202,7 @@ We value your trust in our services and will do everything in our power to make 
             }
 
             const botMessage = document.createElement('p');
-            botMessage.innerHTML = `<span class="bot-logo-div"><img src="LOGO copy.png" alt=""></span>: ${response}`;
+            botMessage.innerHTML = `<span class="bot-logo-div"><img class="bot_logo_div_logo" src="LOGO copy.png" alt=""></span>: ${response}`;
             chatbot.appendChild(botMessage);
         }, 1000);
     });
@@ -370,6 +370,36 @@ We value your trust in our services and will do everything in our power to make 
     .special_service,
     .payment_billing {
         list-style: none;
+    }
+
+    @media(max-width: 1000px){
+        #logo {
+        width: 50px;
+        height: 50px;
+    }
+
+        .show-chatbot-container{
+            width: 18rem;
+            height: 27rem;
+        }
+
+        .background-logo{
+            width: 15rem;
+        }
+
+        .chats p {
+        font-size: 0.8rem;
+    }
+
+    .user-chat input{
+        height: 2rem;
+        font-size: 0.8rem;
+    }
+
+    .bot-line{
+        display: flex;
+        align-items: center;
+    }
     }
 </style>
 
